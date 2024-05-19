@@ -147,6 +147,8 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
+#Flameshot
+bindsym $mod+Shift+s exec --no-startup-id flameshot gui
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
