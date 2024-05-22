@@ -148,7 +148,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 # reload the configuration file
 bindsym $mod+Shift+c reload
 #Flameshot
-bindsym $mod+Shift+s exec --no-startup-id flameshot gui
+bindsym $mod+Shift+s exec --no-startup-id flameshot gui --clipboard --path ~/screenshot
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
@@ -189,4 +189,4 @@ bindsym $mod+Shift+m move scratchpad
 bindsym $mod+m scratchpad show
 
 for_window [class="Org.gnome.Nautilus"] floating enable
-
+exec --no-startup-id picom -b

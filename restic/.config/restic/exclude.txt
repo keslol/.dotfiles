@@ -1,0 +1,15 @@
+go
+pytest_cache
+.rustup
+.var
+.cache
+.mozilla
+.npm
+.pki
+.local
+.gnome
+.fzf
+.docker
+.cargo
+.ansible
+.steam
