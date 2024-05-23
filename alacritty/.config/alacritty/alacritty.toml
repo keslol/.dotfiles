@@ -46,5 +46,5 @@ title = "Test"
 history = 10000
 
 [shell]
-program = "/usr/bin/tmux"
+program = "/usr/local/bin/tmux"
 args = ["new-session", "-A", "-s", "main"]
