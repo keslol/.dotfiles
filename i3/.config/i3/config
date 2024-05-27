@@ -191,3 +191,5 @@ bindsym $mod+m scratchpad show
 for_window [class="Org.gnome.Nautilus"] floating enable
 exec --no-startup-id picom -b
 exec --no-startup-id nm-applet --sm-disable
+exec --no-startup-id discord
+exec --no-startup-id steam
