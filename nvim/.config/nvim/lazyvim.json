@@ -3,6 +3,7 @@
     "lazyvim.plugins.extras.coding.luasnip",
     "lazyvim.plugins.extras.editor.harpoon2",
     "lazyvim.plugins.extras.lang.ansible",
+    "lazyvim.plugins.extras.lang.astro",
     "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.python",
     "lazyvim.plugins.extras.lang.rust",
@@ -17,5 +18,5 @@
   "news": {
     "NEWS.md": "4964"
   },
-  "version": 5
+  "version": 6
 }
