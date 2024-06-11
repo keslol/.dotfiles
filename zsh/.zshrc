@@ -34,7 +34,7 @@ export PATH=$PATH:/usr/local/go/bin:$HOME/.config/bin:$HOME/.local/bin
 export EDITOR="nvim"
 source ~/.zsh_profile
 source ~/.fzf.zsh
-eval "$(~/.local/bin/mise activate zsh)"
+eval "$(~/.local/bin/mise activate zsh --shims)"
 export RESTIC_REPOSITORY=/media/backup
 alias resticbackup="restic backup ~/ --exclude-file=/home/keslol/.config/restic/exclude.txt"
 zprof

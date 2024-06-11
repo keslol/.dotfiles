@@ -3,3 +3,5 @@ node = "lts"
 python = "3.12"
 go = "1.22"
 neovim = "stable"
+[env]
+_.python.venv = { path = ".venv", create = true } # create the venv if it doesn't exist
